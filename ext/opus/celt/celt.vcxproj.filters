@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\celt\bands.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\celt\celt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\celt\celt_encoder.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\celt\celt_decoder.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\celt\cwrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\celt\entcode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\celt\entdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\celt\entenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\celt\kiss_fft.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\celt\laplace.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\celt\mathops.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\celt\mdct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\celt\modes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\celt\pitch.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\celt\celt_lpc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\celt\quant_bands.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\celt\rate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\celt\vq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\celt\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F574AC73-33C0-31F9-8C69-DE9D48268F3B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

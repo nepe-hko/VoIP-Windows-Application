@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\hauk_\Desktop\voip-hauk\CMakeFiles\3b68eaca8e300dface4f460f16c82092\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{38A5122D-025F-3285-9E0F-1BCED16FF427}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

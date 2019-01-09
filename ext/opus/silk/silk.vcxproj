@@ -1,0 +1,379 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{46BDEC8E-84C1-3F61-BB1D-DEE1A3D0AE90}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>silk</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\hauk_\Desktop\voip-hauk\ext\opus\silk\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">silk.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">silk</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\hauk_\Desktop\voip-hauk\ext\opus\silk\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">silk.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">silk</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\hauk_\Desktop\voip-hauk\ext\opus\silk\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">silk.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">silk</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\hauk_\Desktop\voip-hauk\ext\opus\silk\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">silk.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">silk</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\.;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\include;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\celt;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\float;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\fixed;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;HAVE_CONFIG_H=1;USE_ALLOCA=1;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;HAVE_CONFIG_H=1;USE_ALLOCA=1;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\.;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\include;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\celt;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\float;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\fixed;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\.;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\include;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\celt;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\float;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\fixed;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\.;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\include;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\celt;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\float;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\fixed;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;HAVE_CONFIG_H=1;USE_ALLOCA=1;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;HAVE_CONFIG_H=1;USE_ALLOCA=1;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\.;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\include;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\celt;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\float;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\fixed;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\.;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\include;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\celt;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\float;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\fixed;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\.;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\include;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\celt;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\float;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\fixed;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;HAVE_CONFIG_H=1;USE_ALLOCA=1;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;HAVE_CONFIG_H=1;USE_ALLOCA=1;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\.;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\include;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\celt;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\float;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\fixed;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\.;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\include;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\celt;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\float;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\fixed;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\.;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\include;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\celt;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\float;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\fixed;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;HAVE_CONFIG_H=1;USE_ALLOCA=1;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;HAVE_CONFIG_H=1;USE_ALLOCA=1;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\.;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\include;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\celt;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\float;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\fixed;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\.;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\include;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\celt;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\float;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\fixed;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/hauk_/Desktop/voip_workspace_develop/ext/opus/silk/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/hauk_/Desktop/voip_workspace_develop -BC:/Users/hauk_/Desktop/voip-hauk --check-stamp-file C:/Users/hauk_/Desktop/voip-hauk/ext/opus/silk/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/hauk_/Desktop/voip_workspace_develop/ext/opus/silk/CMakeLists.txt;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\CMakeLists.txt;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\hauk_\Desktop\voip-hauk\ext\opus\silk\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/hauk_/Desktop/voip_workspace_develop/ext/opus/silk/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/hauk_/Desktop/voip_workspace_develop -BC:/Users/hauk_/Desktop/voip-hauk --check-stamp-file C:/Users/hauk_/Desktop/voip-hauk/ext/opus/silk/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/hauk_/Desktop/voip_workspace_develop/ext/opus/silk/CMakeLists.txt;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\CMakeLists.txt;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\hauk_\Desktop\voip-hauk\ext\opus\silk\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/hauk_/Desktop/voip_workspace_develop/ext/opus/silk/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/hauk_/Desktop/voip_workspace_develop -BC:/Users/hauk_/Desktop/voip-hauk --check-stamp-file C:/Users/hauk_/Desktop/voip-hauk/ext/opus/silk/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/hauk_/Desktop/voip_workspace_develop/ext/opus/silk/CMakeLists.txt;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\CMakeLists.txt;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\hauk_\Desktop\voip-hauk\ext\opus\silk\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/hauk_/Desktop/voip_workspace_develop/ext/opus/silk/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/hauk_/Desktop/voip_workspace_develop -BC:/Users/hauk_/Desktop/voip-hauk --check-stamp-file C:/Users/hauk_/Desktop/voip-hauk/ext/opus/silk/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/hauk_/Desktop/voip_workspace_develop/ext/opus/silk/CMakeLists.txt;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\CMakeLists.txt;C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\hauk_\Desktop\voip-hauk\ext\opus\silk\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\CNG.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\code_signs.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\init_decoder.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\decode_core.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\decode_frame.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\decode_parameters.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\decode_indices.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\decode_pulses.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\decoder_set_fs.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\dec_API.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\enc_API.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\encode_indices.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\encode_pulses.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\gain_quant.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\interpolate.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\LP_variable_cutoff.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\NLSF_decode.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\NSQ.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\NSQ_del_dec.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\PLC.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\shell_coder.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\tables_gain.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\tables_LTP.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\tables_NLSF_CB_NB_MB.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\tables_NLSF_CB_WB.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\tables_other.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\tables_pitch_lag.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\tables_pulses_per_block.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\VAD.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\control_audio_bandwidth.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\quant_LTP_gains.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\VQ_WMat_EC.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\HP_variable_cutoff.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\NLSF_encode.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\NLSF_VQ.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\NLSF_unpack.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\NLSF_del_dec_quant.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\process_NLSFs.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\stereo_LR_to_MS.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\stereo_MS_to_LR.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\check_control_input.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\control_SNR.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\init_encoder.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\control_codec.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\A2NLSF.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\ana_filt_bank_1.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\biquad_alt.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\bwexpander_32.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\bwexpander.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\debug.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\decode_pitch.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\inner_prod_aligned.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\lin2log.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\log2lin.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\LPC_analysis_filter.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\LPC_inv_pred_gain.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\table_LSF_cos.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\NLSF2A.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\NLSF_stabilize.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\NLSF_VQ_weights_laroia.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\pitch_est_tables.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\resampler.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\resampler_down2_3.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\resampler_down2.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\resampler_private_AR2.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\resampler_private_down_FIR.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\resampler_private_IIR_FIR.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\resampler_private_up2_HQ.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\resampler_rom.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\sigm_Q15.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\sort.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\sum_sqr_shift.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\stereo_decode_pred.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\stereo_encode_pred.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\stereo_find_predictor.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\stereo_quant_pred.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\LPC_fit.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\float\LPC_analysis_filter_FLP.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\float\LPC_inv_pred_gain_FLP.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\float\LTP_analysis_filter_FLP.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\float\LTP_scale_ctrl_FLP.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\float\apply_sine_window_FLP.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\float\autocorrelation_FLP.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\float\burg_modified_FLP.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\float\bwexpander_FLP.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\float\corrMatrix_FLP.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\float\encode_frame_FLP.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\float\energy_FLP.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\float\find_LPC_FLP.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\float\find_LTP_FLP.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\float\find_pitch_lags_FLP.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\float\find_pred_coefs_FLP.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\float\inner_product_FLP.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\float\k2a_FLP.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\float\noise_shape_analysis_FLP.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\float\pitch_analysis_core_FLP.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\float\process_gains_FLP.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\float\regularize_correlations_FLP.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\float\residual_energy_FLP.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\float\scale_copy_vector_FLP.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\float\scale_vector_FLP.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\float\schur_FLP.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\float\sort_FLP.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\float\warped_autocorrelation_FLP.c" />
+    <ClCompile Include="C:\Users\hauk_\Desktop\voip_workspace_develop\ext\opus\silk\float\wrappers_FLP.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\hauk_\Desktop\voip-hauk\ZERO_CHECK.vcxproj">
+      <Project>{D9BD6445-7316-3326-913D-6206B41C4EB3}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
